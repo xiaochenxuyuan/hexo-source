@@ -1,0 +1,26 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
+
+# Hexo 默认生成的 public 目录（静态页）
+public/
+
+# 依赖包
+node_modules/
+
+# 各种缓存 & 日志
+db.json
+*.log
+.DS_Store
+Thumbs.db
+
+# 主题里可能自带的 node_modules（有就删，没有不管）
+themes/*/node_modules/
+
+# 如果你用 npm ci 锁版本，保留 package-lock.json
+!package-lock.json
