@@ -20,10 +20,11 @@ npm ci          # 严格按 lock 版本
 # 3. 本地预览
 
 hexo server     # http://localhost:4000
+```
 
 ## 🏗️ 日常写作流程
 
-```bash
+``` bash
 graph LR
  A[hexo new post "标题"] --> B[Markdown 写作]
  B --> C[hexo server 本地预览]
